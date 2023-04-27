@@ -1,0 +1,6 @@
+defaults:
+  - _self_
+  - experiment: base
+  - callbacks:
+      - base
+      - checkpoint
