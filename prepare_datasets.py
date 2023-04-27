@@ -5,7 +5,7 @@ import numpy as np
 
 from sklearn.model_selection import train_test_split
 
-from src.datasets import *
+from data.lfnlf import *
 
 
 # In general, for sequence dataset, the purpose is to learn the relationship between
