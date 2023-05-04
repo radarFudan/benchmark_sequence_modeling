@@ -1,0 +1,30 @@
+# @package _global_
+defaults:
+  - /pipeline: copying
+  - /model: rnn
+
+dataset:
+  l_noise: 0
+  l_memorize: 1024
+  n_tokens: 64
+  n_train: 10000
+  n_eval: 1000
+
+model:
+  n_layers: 4
+  d_model: 64
+  layer:
+    rank: 2
+
+loader:
+  batch_size: 8
+
+optimizer:
+  lr: 0.001
+  weight_decay: 0.00
+
+trainer:
+  max_epochs: 1000
+
+train:
+  seed: 1112
