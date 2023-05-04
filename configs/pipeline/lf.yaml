@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - adding
+  - override /dataset: copying
+  - override /task: multiclass_classification
+
+# Do I need embedding? Maybe linear
+encoder: linear

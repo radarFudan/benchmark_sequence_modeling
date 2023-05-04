@@ -3,3 +3,5 @@
 3. Maybe I should start with using state space - I'll borrow a lot of code from state-space to make my code running.
 
 `python -m train pipeline=lf dataset.permute=True model=rnn model.n_layers=1 model.d_model=128 model.norm=batch model.prenorm=True wandb=null`
+
+Give-up, let me go back to state-space...
